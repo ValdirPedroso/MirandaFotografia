@@ -8,23 +8,8 @@
 </head>
 <body>
 	<div id="header">
-		<div id="logo">
-			<a href="index.html"> <img src="images/logo.gif" alt="LOGO"> </a>
-		</div>
-		<ul id="navigation">
-			<li>
-				<a href="index.html">home</a>
-			</li>
-			<li>
-				<a href="about.html">about</a>
-			</li>
-			<li class="active">
-				<a href="blog.html">blog</a>
-			</li>
-			<li>
-				<a href="journey.html">the journey</a>
-			</li>
-		</ul>
+		<?php include("view/logo.php"); ?>
+		<?php include("view/navigation.php"); ?>
 	</div>
 	<div id="body">
 		<div id="contents">
