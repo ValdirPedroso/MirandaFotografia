@@ -11,6 +11,7 @@
 		<?php include("view/logo.php"); ?>
 		<?php include("view/navigation.php"); ?>
 	</div>
+	
 	<div id="body">
 		<div id="contents">
 			<div id="journey">
