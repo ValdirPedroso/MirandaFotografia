@@ -7,23 +7,8 @@
 </head>
 <body>
 	<div id="header">
-		<div id="logo">
-			<a href="index.html"> <img src="images/logo.gif" alt="LOGO"> </a>
-		</div>
-		<ul id="navigation">
-			<li class="active">
-				<a href="index.html">home</a>
-			</li>
-			<li>
-				<a href="about.html">Sobre</a>
-			</li>
-			<li>
-				<a href="blog.html">Trabalhos</a>
-			</li>
-			<li>
-				<a href="journey.html">Contato</a>
-			</li>
-		</ul>
+		<?php include("view/logo.php"); ?>
+		<?php include("view/navigation.php"); ?>
 	</div>
 	<div id="adbox">
 		<div>
