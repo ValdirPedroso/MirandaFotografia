@@ -35,9 +35,14 @@ img {
 	height: 108px;
 	width: 427px;
 	margin-right: 23px;
+	margin-top: 35px;
 }
 #logo a {
-	outline: 0;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+
+	/*outline: 0;*/
 }
 #logo img {
 	padding-top: 34px;
