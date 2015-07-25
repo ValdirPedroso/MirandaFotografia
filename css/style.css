@@ -31,7 +31,7 @@ img {
 /** Logo **/
 #logo {
 	float: left;
-	background: url(../images/bg-logo.jpg) no-repeat;
+	/*background: url(../images/bg-logo.jpg) no-repeat;*/
 	height: 108px;
 	width: 427px;
 	margin-right: 23px;
@@ -63,7 +63,7 @@ img {
 	outline: 0;
 	text-decoration: none;
 }
-#navigation a:hover, #navigation li.active a {
+#navigation a:hover /*#navigation li.active a*/ {
 	background: url(../images/bg-navigation-hover.png) repeat-x center;
 	color: #d2d2d2;
 }
